@@ -167,3 +167,6 @@ cython_debug/
 
 # Local files
 # kaggle.json
+
+# Check points
+checkpoints/
