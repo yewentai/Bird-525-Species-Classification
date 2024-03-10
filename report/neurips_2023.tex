@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[authoryear]{natbib}
+% \usepackage[numbers]{natbib}
+\usepackage[final]{neurips_2023}
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+\usepackage{graphicx}       % images
+\usepackage{footnote}       % footnotes
+\usepackage{subcaption}
+
+\title{Comparasion of ResNet50 and 3-layer Neural Network for Bird Identification}
+
+\author{
+  Wentai Ye\\
+  Department of Engineering Technology\\
+  KU Leuven\\
+  \texttt{yewentai126@gmail.com} \\
+  \And
+  Joren Mangelschots \\
+  Department of Engineering Technology\\
+  KU Leuven\\
+  \texttt{joren.mangelschots@student.kuleuven.be} \\
+}
+\usepackage{amsmath}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Because of the decreasing biodiversity in nature reserves, we tought to manage this biodiverisity it would be nice to have a classificaiton system. With this classificaiton system we would be able to use images to recognise which species of birds are in the image. We used a baseline and an advanced ResNet50 neural network for the classification. 
+\end{abstract}
+
+\input{sections/1introduction.tex}
+\input{sections/2related_work.tex}
+\input{sections/3dataset_and_features.tex}
+\input{sections/4methods.tex}
+\input{sections/5results_and_discussion.tex}
+\input{sections/6conclusion_and_future_work.tex}
+\input{sections/7contributions.tex}
+
+\bibliographystyle{plainnat} % Example style
+\bibliography{citations.bib} % Replace with your .bib file's name
+
+\end{document}

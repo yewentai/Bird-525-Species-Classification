@@ -1,0 +1,8 @@
+\section{Conclusion and Future Work}
+Summarize your report and reiterate key points. Which algorithms were the highest- performing? Why do you think that some algorithms worked better than others? For future work, if you had more time, more team members, or more computational resources, what would you explore?
+
+If we had more time and more team members, we would be able to work on the comparison between the different classes to see what the problem is for these classes of bird species. We can see if they really look alike of maybe are there some problem in the dataset with these pictures. For example we could also compare the AUC-PR for all different classes, this way we can easily see how well the model discriminates between all the different classes, and where there is much room for improvement. 
+
+We could also improve the fully connected layers by implementing some convolutional layers because compared to the fully connected layers they are better at detecting spatial dimensions, which can be useful for images as these layers are able to detect some edges and textures. This is also visible in the ResNet50 which already uses convolutional layers. 
+
+We could also add some dropout layers to the improved neural network \ref{fig:NN with 8 layers}. This way a random fraction of the input units is set to zero during training. This helps the model from relying too much on specific neurons and encourages the network to learn the more robust features. Also we could add batch normalization layers to the improved neural network \ref{fig:NN with 8 layers}. This way we could normalize the input by subtracting the batch mean and dividing by the batch standard deviation. This is done on each feature independently. 
