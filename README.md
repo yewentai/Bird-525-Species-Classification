@@ -23,37 +23,9 @@ The project is divided into three main scripts:
 - PIL, OpenCV, Albumentations (for image preprocessing and augmentation)
 - Super Gradients (for additional training utilities)
 
-### Installation
+### Data Source
 
-1. Clone this repository to your local machine.
-
-2. Install the required Python packages:
-
-   ```bash
-   pip install numpy matplotlib torch torchvision opencv-python Pillow imutils super_gradients albumentations split-folders
-   ```
-
-3. Set up the Kaggle API by following the instructions [here](https://github.com/Kaggle/kaggle-api).
-
-### Usage
-
-1. Run the `dataset_download_preprocessing.py` script to download and preprocess the dataset:
-
-   ```bash
-   python dataset_download_preprocessing.py
-   ```
-
-2. (Optional) Plot sample training results by running:
-
-   ```bash
-   python plot_result.py
-   ```
-
-3. Train and evaluate the ResNet50 model:
-
-   ```bash
-   python pytorch-resnet50.py
-   ```
+The data used in this project was obtained from Kaggle. However, this data source has been deleted.
 
 ## Key Features
 
