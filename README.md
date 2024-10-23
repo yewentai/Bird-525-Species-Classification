@@ -25,7 +25,7 @@ The project is divided into three main scripts:
 
 ### Data Source
 
-The data used in this project was obtained from Kaggle. However, this data source has been deleted.
+The data used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets/gpiosenka/100-bird-species). However, this kaggle datasets was not maintained anymore. Please search '525 birds' on [Google Dataset Search](https://datasetsearch.research.google.com/).
 
 ## Key Features
 
